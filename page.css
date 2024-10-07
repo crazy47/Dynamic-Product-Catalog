@@ -1,1 +1,34 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.Create {
+    border: 1px solid black;
+    border-width: max-content;
+}
+.Create > label {
+    padding: 1rem;
+}
+.Create > input {
+    margin: 1rem;
+}
+
+
+.Display-products {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 1rem;
+    gap: 1rem;
+}
+.item {
+    background-color: aquamarine;
+    width: 13rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.item * {
+    margin: 0;
+    padding: 0.5rem;
+}
